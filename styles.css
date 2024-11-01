@@ -1,0 +1,58 @@
+/* Basic reset for styling across browsers */
+
+body {
+    font-family: "adapter-mono-pe-variable", sans-serif;
+    font-variation-settings: "BORD" 300, "ital" 0, "slnt" 0, "wght" 400;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: #333;
+}
+
+/* Container for main content */
+.container {
+    
+    color: blanchedalmond;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Basic header styling */
+header {
+    background-color: rgb(24, 55, 97);
+    color: rgb(245, 245, 245);
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center; 
+    width: auto;
+}
+
+/* Links in the navigation section */
+nav a {
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Content sections styling */
+section {
+    margin-bottom: 20px;
+}
+
+.fit-picture {
+    width: 800px;
+  }
+  
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
